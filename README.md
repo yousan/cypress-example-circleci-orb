@@ -45,5 +45,5 @@ Workflow -> Jobs --> Commands -> define steps
 
 ## Development
 
-- Check if you are correctly using the Cypress CircleCI Orb in the [.circleci/config.yml](.circleci/config.yml) file by running `npm run validate`.
+- Check if you are correctly using the Cypress CircleCI Orb in the [.circleci/config.yml](.circleci/config.yml) file by running `circleci config validate`.
 - You can expand all commands from the orb and see how the "processed" [.circleci/config.yml](.circleci/config.yml) looks during the run on CircleCI. Execute `npm run process` to print the processed YAML in the terminal.
